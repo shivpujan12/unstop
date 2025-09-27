@@ -115,6 +115,17 @@
     background: #F4F4F4;
 }
 
+.error-box {
+    border: 1px solid red;
+}
+
+.errors {
+    color: red;
+    text-align: start;
+    padding-bottom: 10px;
+    padding-left: 8px;
+}
+
 .input-group .icon {
     margin-right: 8px;
     width:24px;
@@ -138,6 +149,10 @@
         background: none;
         width: 100%;
         font-family: Poppins-Bold, sans-serif;
+    }
+    input:focus {
+        outline: none;
+        border: none;
     }
 
 }

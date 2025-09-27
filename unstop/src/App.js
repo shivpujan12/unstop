@@ -16,20 +16,23 @@ export default App;
 
 export function Profile() {
     return (
-        <div className="profile-container">
-            <h2>Welcome to</h2>
-            <h1 className="brand">Unstop</h1>
+        <div className=" profile-container">
+            <div className={'poppins-medium brand'}>
+                Welcome to <br/>
+                <span className="brand poppins-extrabold">Unstop</span>
+            </div>
 
-            <div className="profile-card">
+
+            <div className="profile-card poppins-medium">
                 <img
-                    src="https://randomuser.me/api/portraits/women/44.jpg"
+                    src="/profile-icon.svg"
                     alt="Profile"
                     className="profile-img"
                 />
                 <h3 className="profile-name">Michael Dam</h3>
                 <p className="profile-email">example@gmail.com</p>
                 <p className="profile-gender">Female</p>
-                <button className="logout-btn">Logout</button>
+                <button className="logout-btn poppins-extrabold">Logout</button>
             </div>
         </div>
     );
@@ -51,7 +54,7 @@ export function Login() {
                 <div className="login-form poppins-medium">
                     <div className={'poppins-medium brand'}>
                         Welcome to <br/>
-                        <span className="brand poppins-extrabold">Unstop</span>
+                        <span className=" poppins-extrabold">Unstop</span>
                     </div>
 
 

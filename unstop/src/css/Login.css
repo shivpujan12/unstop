@@ -213,11 +213,31 @@
 
 /* Responsive */
 @media (max-width: 768px) {
-    .login-box {
 
+    .login-container {
+        width: 100%;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .login-form {
+        width: auto;
+    }
+
+    .login-box {
+        flex-direction: column;
+        justify-content: unset;
+        align-items: unset;
+    }
+
+    .login-btn{
+        width: 100%;
+        padding: 18px 0px;
     }
 
     .login-illustration {
         display: none;
     }
+
+
 }

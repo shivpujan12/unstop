@@ -86,3 +86,12 @@
 .logout-btn:hover {
     background: #4338ca;
 }
+
+@media (max-width: 768px) {
+    .brand {
+        text-align: center;
+    }
+    .profile-container {
+        gap: 32px;
+    }
+}
